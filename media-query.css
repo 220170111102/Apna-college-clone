@@ -1,0 +1,52 @@
+@media screen and (max-width : 1050px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+ 
+    .hamburgeer {
+        /* display: none; */
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        left : -100%;
+        top: 100%;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 100%;
+        background-color: rgb(255, 255, 255);
+        padding-block: 20px;
+        transition: 0.5s ease-in-out ;
+    }
+    .hamburgeer.active {
+        left: 0;
+    }
+    .blue-btn {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width : 885px){
+    .two-items {
+        flex-wrap: wrap;
+    }
+    .first-text-view {
+        width: 100%;
+        padding-left: 40px;
+    }
+    .selected-student-img {
+        flex-wrap: wrap;
+    }
+  .happy-text-section {
+    flex-wrap: wrap;
+  }
+  .main-footer {
+    margin: 20px;
+    flex-wrap: calc(100%-10%);
+   flex-wrap: wrap;
+  }
+  /* .happy-text-section {
+    flex-direction: column;
+  } */
+   
+}
